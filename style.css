@@ -2,56 +2,30 @@
     padding: 0;
     margin: 0;
 }
-.text{
+.Stopwatch{
     position: absolute;
-    top: 30%;
-    left: 40%;
-}
-body{
-    background: gray;
-
-}
-.container {
-    position: absolute;
-    top: 30%;
+    top: 20%;
     left: 30%;
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    background-color: #005096;
     width: 40%;
-    height: 40%;
+    height: 50%;
 }
-#timer{
-    font-size: 80px;
+.time{
     position: absolute;
-    left: 5%;
+    left: 33%;
+    top: 3cm;
+    font-size: 50px;
 }
 .btn{
-    width: 6.9cm;
+    position: absolute;
+    left: 33%;
+    top: 5cm;
+    width: 33%;
     display: flex;
     justify-content: space-around;
-    position: absolute;
-    top: 70%;
-    left: 30%;
 }
 button{
-    padding: 2% 4%;
-    color: #fff;
-    border: none;
+    padding: 3px 5px;
+    background-color: aqua;
     cursor: pointer;
-}
-.start{
-    background: #008000;
-}
-.stop{
-    background: #ff0000;
-}
-.reset{
-    background: #575756;
-}
-.text{
-    position: absolute;
-    top: 30%;
-    left: 33%;
 }

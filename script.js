@@ -1,36 +1,43 @@
-let time = 25 * 60;
-let interval;
+let seconds = 0;
+let minites = 0; 
+let hours = 0;
+let interval = null;
 
-function updateDisplay() {
-    let minutes = Math.floor(time / 60);
-    let seconds = time % 60;
+function updateTime(){
+    seconds++;
 
-    document.getElementById("timer").innerText =
-        `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    if(seconds === 60){
+        seconds = 0;
+        minutes++;
+    }
+
+    if(minites === 60){
+        minutes = 0;
+        hours++;
+    }
+
+    let h = hours < 10 ? "0" + hours : hours;
+    let m = minites < 10 ? "0" + minites : minites;
+    let s = seconds < 10 ? "0" + seconds : seconds;
+
+    document.getElementById("time").innerText = `${h}:${m}:${s}`;
 }
 
-function startTimer() {
-    if (interval) return;
+function startTimer(){
+    if(interval === null){
+        interval = setInterval(updateTime, 1000);
+    };
+};
 
-    interval = setInterval(() => {
-        if (time > 0) {
-            time--;
-            updateDisplay();
-        } else {
-            clearInterval(interval);
-            interval = null;
-            alert("Time's up!");
-        }
-    }, 1000);
-}
-
-function stopTimer() {
+function stopTimer(){
     clearInterval(interval);
     interval = null;
-}
+};
 
-function resetTimer() {
-    stopTimer();
-    time = 25 * 60;
-    updateDisplay();
-}
+function resetTimer(){
+    stopTimer()
+    hours = 0;
+    seconds = 0;
+    minites = 0
+    document.getElementById("time").innerText = "00:00:00";
+};

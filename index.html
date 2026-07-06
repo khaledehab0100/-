@@ -3,21 +3,16 @@
     <head>
         <link rel="stylesheet" href="style.css">
     </head>
-    <div class="container">
-        <div class="text">
-            <h1>pomodoro timer</h1>
-            <div id="timer">25:00</div>
+    <body>
+        <div class="Stopwatch">
+            <div class="time" id="time">00:00:00</div>
+            <div class="btn">
+                <button class="start" onclick="startTimer()">start</button>
+                <button class="stop" onclick="stopTimer()">stop</button>
+                <button class="reset" onclick="resetTimer()">reset</button>
+            </div>
         </div>
-        <div class="btn">
-            <button id="start" class="start" onclick="startTimer()">start</button>
-            <button id="stop" class="stop" onclick="stopTimer()">stop</button>
-            <button id="reset" class="reset" onclick="resetTimer()">reset</button>
-        </div>
-    </div>
 
-
-
-
-
-    <script src="script.js"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
