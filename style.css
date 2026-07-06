@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+body{
+    background: gray;
+
+}
+.container {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    width: 40%;
+    height: 40%;
+}
+#timer{
+    font-size: 80px;
+    position: absolute;
+    left: 5%;
+}
+.btn{
+    width: 6.9cm;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+button{
+    padding: 2% 4%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.start{
+    background: #008000;
+}
+.stop{
+    background: #ff0000;
+}
+.reset{
+    background: #575756;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 33%;
+}
