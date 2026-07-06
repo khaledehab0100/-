@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Stopwatch{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: #005096;
+    width: 40%;
+    height: 50%;
+}
+.time{
+    position: absolute;
+    left: 33%;
+    top: 3cm;
+    font-size: 50px;
+}
+.btn{
+    position: absolute;
+    left: 33%;
+    top: 5cm;
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    padding: 3px 5px;
+    background-color: aqua;
+    cursor: pointer;
+}
