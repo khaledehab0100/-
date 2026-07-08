@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #000;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.bubbbles{
+    position: relative;
+    display: flex;
+}
+.bubbbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+    border-radius: 50%;
+    background-color: aqua;
+    box-shadow:0 0 0 10px #4fc3dc44,
+    0 0 50px aqua,
+    0 0 700px aquamarine;
+    animation: animate 15s linear infinite;
+    animation-duration: calc( 125s / var(--i));
+}
+.bubbbles span:nth-child(1){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(2){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(3){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(4){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(5){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(6){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(7){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(8){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(9){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(10){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(11){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(12){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(13){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(14){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(15){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(16){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(17){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(18){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(19){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(20){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(21){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(22){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(23){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(24){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(25){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(26){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(27){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(28){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(29){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(30){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(28){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(29){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(30){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(28){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(29){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(30){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(28){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(29){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(30){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(31){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(32){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(33){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+.bubbbles span:nth-child(34){
+    background-color: #ff0000;
+    box-shadow:0 0 0 10px #720000,
+    0 0 50px #ff0000,
+    0 0 700px #ff0000;
+}
+.bubbbles span:nth-child(35){
+    background-color: #ffff00;
+    box-shadow:0 0 0 10px rgb(180, 180, 11),
+    0 0 50px #ffff00,
+    0 0 700px #ffff00;
+}
+.bubbbles span:nth-child(36){
+    background-color: #00ff00;
+    box-shadow:0 0 0 10px #0cb60c,
+    0 0 50px #00ff00,
+    0 0 700px #00ff00;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+}
+}
